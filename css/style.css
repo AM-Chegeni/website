@@ -236,6 +236,7 @@ img { max-width: 100%; }
 
 .logo-wrapper {
   display: flex;
+  flex-direction: row; /* Ensures horizontal alignment */
   align-items: center;
 }
 
@@ -247,13 +248,12 @@ img { max-width: 100%; }
   -o-transition: all 0.3s;
   transition: all 0.3s;
   width: 70px; /* Adjust as needed */
-  display: block;
+  height: auto; /* Maintains aspect ratio */
 }
 
 .second-logo-nav {
   margin-left: 10px; /* Adds some space between the logos */
 }
-
 /*----------- panel ----------*/
 .content-wrap {
   -webkit-overflow-scrolling: touch;
