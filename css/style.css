@@ -228,6 +228,32 @@ img { max-width: 100%; }
   opacity: 0.8;
   z-index: 2;
 }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-nav, .second-logo-nav {
+  padding: 6px 10px 10px 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 70px; /* Adjust as needed */
+  display: block;
+}
+
+.second-logo-nav {
+  margin-left: 10px; /* Adds some space between the logos */
+}
+
 /*----------- panel ----------*/
 .content-wrap {
   -webkit-overflow-scrolling: touch;
