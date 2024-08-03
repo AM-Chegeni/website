@@ -247,7 +247,7 @@ img { max-width: 100%; }
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  width: 70px; /* Adjust as needed */
+  width: 100px; /* Adjust as needed */
   height: auto; /* Maintains aspect ratio */
 }
 
